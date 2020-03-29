@@ -6,12 +6,12 @@ class Vizix < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/vs4vijay/vizix/releases/download/v0.0.0/vizix_0.0.0_mac`_x86_64.tar.gz"
-    sha256 "ebc46549d19bdb9465104565b2f81df27269b98b9bfe524e6c169864c47e8106"
+    url "https://github.com/vs4vijay/vizix/releases/download/v0.0.0/vizix_0.0.0_mac_x86_64.tar.gz"
+    sha256 "4af7a4f42f6144c01addf9d6953ca5d92edf54e3a91b052a574eb0126e961020"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/vs4vijay/vizix/releases/download/v0.0.0/vizix_0.0.0_linux_x86_64.tar.gz"
-      sha256 "0db5182eabcff607e596c887ed1218f86a2bb9cb118eb8a269a749c479e4dc36"
+      sha256 "7d7546e8982b10686bbbc74ffa4221f4e4884b614a13dcb4d2ac5ac4f7163fd2"
     end
   end
 
