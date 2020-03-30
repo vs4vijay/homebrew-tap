@@ -2,16 +2,16 @@
 class Vizix < Formula
   desc "vizix - Software for fun and profit"
   homepage ""
-  version "0.0.2"
+  version "0.0.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/vs4vijay/vizix/releases/download/v0.0.2/vizix_0.0.2_mac_x86_64.tar.gz"
-    sha256 "fe485538bef4a13e38474b3178c0beec3cc767a0a4164dbd91f336b7ec440a9e"
+    url "https://github.com/vs4vijay/vizix/releases/download/v0.0.3/vizix_0.0.3_mac_x86_64.tar.gz"
+    sha256 "0645b56cf5bb71d47164638042baf7253c1ab9ff32cd2f4b0fcef939849aef04"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/vs4vijay/vizix/releases/download/v0.0.2/vizix_0.0.2_linux_x86_64.tar.gz"
-      sha256 "71f585893118d526b335b1895a778b0f660b9a98112c19303db29b3db2012960"
+      url "https://github.com/vs4vijay/vizix/releases/download/v0.0.3/vizix_0.0.3_linux_x86_64.tar.gz"
+      sha256 "633b0addd1f4b654306d1a84c0f0f376100df98fe9ecb8cca3eb6ba86553451f"
     end
   end
 
